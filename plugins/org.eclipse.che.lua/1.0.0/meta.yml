@@ -1,0 +1,16 @@
+id: org.eclipse.che.lua
+version: 1.0.0
+type: VS Code extension
+name: Language Support for Lua
+title: Language Support for Lua
+description: Lua Linting, Intellisense, formatting, refactoring and more...
+icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
+publisher: Yevhen Vydolob.
+repository: 
+category: Language
+firstPublicationDate: "2019-04-16"
+extensions:
+  - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/sumneko/vsextensions/lua/0.8.5/vspackage
+  - https://github.com/evidolob/custom-repo/releases/download/lua/lua.theia
+attributes:
+  containerImage: "tnemov/lua-plugin:next"
