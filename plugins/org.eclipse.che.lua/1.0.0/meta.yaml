@@ -11,6 +11,6 @@ category: Language
 firstPublicationDate: "2019-04-16"
 extensions:
   - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/sumneko/vsextensions/lua/0.8.5/vspackage
-  - https://github.com/evidolob/custom-repo/releases/download/lua/lua.theia
+ # - https://github.com/evidolob/custom-repo/releases/download/lua/lua.theia
 attributes:
   containerImage: "tnemov/lua-plugin:next"
